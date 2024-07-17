@@ -1,2 +1,2 @@
-# Gest-o-de-notas-e-m-dias
-Programa que permite a gestão de notas e médias
+# Programa de gestão de médias e notas
+Programa feito em JavaScript com Node.js que permite a gestão de notas e médias, ele recebe as informações do aluno, como: nome, matéria, faltas, notas. Ao cálcular a média ele exibe o status do aluno. Se a nota for maior que 6 é aprovado, caso a quantidade de falta por matéria for maior que 5 é reprovado. Caso a nota média seja menor que 6 e a falta for maior que 5 então será reprovado por falta e nota. Se inicialmente a média for menor que 6 e o aluno não estiver reprovado por falta, ele estará com o status de recuperação e a aplicação pedirá para inserir as notas novamante para cálcular a média e definir o status, se o valor da nota continuar abaixo de 6 o status será reprovado por nota e ao contrário aprovado. 
