@@ -32,48 +32,6 @@ let maximoFaltas = 5;
 // Quantidade definida de notas por matéria
 let quantidadeNotas = 3;
 
-let objAluno = {
-  nomeAluno: 'Silas',
-  materias: [
-    {
-      nomeMateria: 'português',
-      notas: [10, 2.3, 7],
-      faltas: 3,
-      status: '',
-      // media 6,4333 - aprov
-    },
-    {
-      nomeMateria: 'matemática',
-      notas: [8, 7.6, 3],
-      faltas: 7,
-      status: '',
-      //media 6.2 reprovado falta
-    },
-    {
-      nomeMateria: 'geografia',
-      notas: [8, 4, 2],
-      faltas: 3,
-      status: '',
-      // media 4,6.. recuperação -> aprov
-    },
-    {
-      nomeMateria: 'física',
-      notas: [4, 2, 2],
-      faltas: 8,
-      status: '',
-      // 2.66.. reprovado por falta e nota
-    },
-    {
-      nomeMateria: 'química',
-      notas: [7, 2, 2],
-      faltas: 3,
-      status: '',
-      // media 3,6.. recuperação -> reprov
-    },
-  ]
-}
-
-
 function cadastrarNotas(nomeMateria){
   /** 
     Esta função é responsável por cadastrar as notas do aluno, nele há um for para cada nota
